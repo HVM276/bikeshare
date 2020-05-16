@@ -216,6 +216,6 @@ def main():
         if restart.lower() != 'yes':
             break
 
-
+# Shows the current name of the script
 if __name__ == "__main__":
     main()
