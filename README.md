@@ -40,3 +40,12 @@ The _Chicago_ and _New York City_ files also have the following two columns:
 
 * Gender
 * Birth Year
+
+### Statistics Computed:
+The code helps user to tell about bike share use in _Chicago_, _New York City_ and _Washington_ by computing a variety of descriptive statistics. In this project, the code output will provide the following information:
+
+* Popular times of travel (i.e., occurs most often in the start time):
+
+  - most common month
+  - most common day of week
+  - most common hour of day
