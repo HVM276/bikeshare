@@ -189,7 +189,7 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
+# To do: To see the raw data or not
 def raw_data(df):
     user_input = raw_input('Do you want to see raw data? Enter yes or no.\n')
     line_number = 0
@@ -201,7 +201,7 @@ def raw_data(df):
             user_input = raw_input('\nDo you want to see more raw data? Enter yes or no.\n')
         else:
             break
-
+# Exceution point of the program
 def main():
     while True :
         city, month, day = get_filters()
@@ -216,6 +216,6 @@ def main():
         if restart.lower() != 'yes':
             break
 
-
+# Shows the current name of the script
 if __name__ == "__main__":
     main()
